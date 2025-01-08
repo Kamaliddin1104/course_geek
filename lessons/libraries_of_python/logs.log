@@ -1,0 +1,10 @@
+WARNING:Этот файл:Начинаем вызывать функции из другого файла
+INFO:importing:Немного информации о работе кода
+WARNING:importing:Внимание надвигается буря!
+ERROR:importing:Поймали ошибку. Дальше только неизвестность
+CRITICAL:importing:Приехали
+WARNING:main:Вызываем функция из др файла
+INFO:importing:Немного информации о работе кода
+WARNING:importing:Внимание надвигается буря!
+ERROR:importing:Поймали ошибку. Дальше только неизвестность
+CRITICAL:importing:Приехали
