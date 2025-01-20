@@ -1,0 +1,25 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 30,
+  "gender": "male",
+  "address": {
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "postalCode": "62704"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "555-1234"
+    },
+    {
+      "type": "mobile",
+      "number": "555-5678"
+    }
+  ],
+  "email": "john.doe@example.com",
+  "isEmployed": true,
+  "hobbies": ["reading", "traveling", "coding"]
+}

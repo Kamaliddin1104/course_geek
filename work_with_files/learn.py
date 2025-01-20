@@ -1,6 +1,6 @@
 # import os
 # from pathlib import Path
-# import json
+import json
 # import csv
 #
 # # file = open('Документы/bytes.txt', encoding='utf-8')
@@ -75,12 +75,12 @@
 #
 #
 # # Преобразование JSON в Python
-# with open('Документы/person.json', 'r', encoding='utf-8') as file:
-#     x = json.load(file)
-#
-# print(x)
-# print(f"this is age: {x["age"]}")
-# print(f"this firstname: {x['firstName']}")
+with open('Документы/person.json', 'r', encoding='utf-8') as file:
+    x = json.load(file)
+
+print(x)
+print(f"this is age: {x["age"]}")
+print(f"this firstname: {x['firstName']}")
 #
 # # Преобразование Python в JSON
 # person = {
