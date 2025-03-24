@@ -1,5 +1,4 @@
 # ООП, особенности Python
-from lessons.classes.learn_beginning_1 import person2
 
 print('Повторение пройденного\n')
 class User: # Повторение пройденного

@@ -120,6 +120,42 @@ print(max_diff([1, 3, 8, 2, 10]))
 
 
 
+# 8 - Выводит два числа из списка которые в сумме образуют target
+
+def target_massive(nums: list, target: int):
+    check = []
+    for i in nums:
+        res = target - i
+        if res in check:
+            return i, res
+        else:
+            check.append(i)
+
+print(target_massive([1, 2, 3, 4, 5, 6, 7], 13))
+
+
+
+
+# 9 - Генератор чисел fibo
+
+def fibo_generator():
+    a1, a2 = 0, 1
+    yield a1
+    while True:
+        a1, a2 = a2, a1 + a2
+        yield a1
+
+
+func = fibo_generator()
+for i in range(10):
+    print(next(func))
+
+
+
+
+
+
+
 
 
 
